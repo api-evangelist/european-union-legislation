@@ -11,8 +11,8 @@
         "profile",
         "provider"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/european-union-legislation\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -26,17 +26,17 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/european-union-legislation-openapi.json"
-                },
-                {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/european-union-legislation-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/european-union-legislation\/master\/european-union-legislation-openapi.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Website",
             "url": "http:\/\/api.epdb.eu\/"
